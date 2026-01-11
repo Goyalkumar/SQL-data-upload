@@ -1,0 +1,22 @@
+# Core dependencies for bulk_upsert_enhanced.py
+# Install with: pip install -r requirements.txt
+
+# Data processing
+pandas>=2.0.0
+
+# Database connectivity
+pyodbc>=4.0.39
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Optional: Enhanced logging and monitoring (uncomment if needed)
+# python-json-logger>=2.0.0
+# prometheus-client>=0.17.0
+
+# Optional: Progress bars (uncomment if you want visual progress bars)
+# tqdm>=4.65.0
+
+# Optional: Data validation (uncomment for additional validation features)
+# pandera>=0.15.0
+# pydantic>=2.0.0
